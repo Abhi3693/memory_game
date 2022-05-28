@@ -1,0 +1,59 @@
+.heading {
+  color: rgb(0, 145, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  margin: 0%;
+}
+body {
+  background-color: bisque;
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+  width: 60%;
+  margin: 0rem auto;
+  padding: 1rem;
+}
+.card-holder {
+  width: 70%;
+  border: 2px solid lightgray;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background-color: rgb(252, 234, 212);
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 10px;
+}
+.card {
+  width: 22%;
+  border: 1px solid lightgray;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 199, 178);
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+.card svg {
+  font-size: 5rem;
+}
+.btn {
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: rgb(31, 133, 31);
+  color: aliceblue;
+  border-radius: 10px;
+}
+.won {
+  font-size: 2rem;
+  color: green;
+  text-align: center;
+}
+.box-holder {
+  display: flex;
+}
